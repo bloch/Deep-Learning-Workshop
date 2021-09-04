@@ -4,6 +4,7 @@ import numpy as np
 from dataset import CompressDataset
 from models import *
 from params import *
+from demo_params import *
 from utils.PSNR import compare_frames
 from utils.blocks import decompose, compose
 
