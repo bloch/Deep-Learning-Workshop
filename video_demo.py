@@ -11,7 +11,7 @@ from utils.blocks import decompose, compose
 def print_error_message():
     print("Bad number of arguments.\n" +
           "Run the video demo using the command python video_demo.py <demo_video_index> <model_type> <compress_every>\n" +
-          "where demo_video_index is an integer 0-9, model_type is one of vanilla, multilayer, conv2, conv3, conv4, \n" +
+          "where demo_video_index is an integer 0-9, model_type is one of vanilla, multilayer, conv4, conv5 and vae \n" +
           "and compress_every is an integer representing the frequency of compression of frames,\n" +
           "i.e, for compress_every = 10, every 10th frame will be compressed.")
 
