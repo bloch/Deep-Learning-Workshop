@@ -8,10 +8,5 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 
 
 
-https://user-images.githubusercontent.com/40773674/132103306-60092b4a-a688-4afb-8fff-6ea53d78874c.mp4
-
-
-
-
 Demo's instructions
 
