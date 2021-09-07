@@ -7,8 +7,10 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 ![alt text](https://github.com/bloch/Deep-Learning-Workshop/blob/master/Visualizations/dataset_examples.png?raw=true)
 
 
+# Demos
 
-# Demo instructions
+
+# Live Demo instructions
 
 
 1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
