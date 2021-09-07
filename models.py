@@ -287,7 +287,7 @@ class ConvAutoencoder5(nn.Module):
         return x
 
 class VAE(nn.Module):
-    def __init__(self, image_channels=3, h_dim=16640, z_dim=512):
+    def __init__(self, image_channels=3, h_dim=16640, z_dim=2048):
         super(VAE, self).__init__()
 
         self.path = VAE_MODEL_PATH
@@ -307,8 +307,7 @@ class VAE(nn.Module):
             nn.ReLU(),
             nn.Conv2d(64, 128, kernel_size=3, stride=2, padding=1),
             nn.BatchNorm2d(128),
-            nn.ReLU()#,
-            #Flatten()
+            nn.ReLU()
         )
 
         self.fc1 = nn.Linear(h_dim, z_dim)
@@ -316,32 +315,15 @@ class VAE(nn.Module):
         self.fc3 = nn.Linear(z_dim, h_dim)
 
         self.decoder = nn.Sequential(
-            #UnFlatten(),
-            # nn.ConvTranspose2d(256, 128, kernel_size=3, stride=2, padding=1, output_padding=(0, 1)),
-            # nn.ReLU(),
             nn.ConvTranspose2d(128, 64, kernel_size=3, stride=2, padding=1, output_padding=(0, 1)),
             nn.BatchNorm2d(64),
             nn.ReLU(True),
-            # nn.ConvTranspose2d(256, 128, kernel_size=3, stride=1, padding=1),
-            # nn.ReLU(True),
-            # nn.ConvTranspose2d(128, 64, kernel_size=3, stride=2, padding=1),
-            # nn.ReLU(),
             nn.ConvTranspose2d(64, 32, kernel_size=3, stride=2, padding=1, output_padding=1),
             nn.BatchNorm2d(32),
             nn.ReLU(True),
-            # nn.ConvTranspose2d(128, 64, kernel_size=3, stride=1, padding=1),
-            # nn.ReLU(True),
-            # nn.ConvTranspose2d(64, 32, kernel_size=3, stride=2, padding=1),
-            # nn.ReLU(),
             nn.ConvTranspose2d(32, 16, kernel_size=3, stride=2, padding=1, output_padding=1),
             nn.BatchNorm2d(16),
             nn.ReLU(True),
-            # nn.ConvTranspose2d(64, 32, kernel_size=3, stride=1, padding=1),
-            # nn.ReLU(True),
-            # nn.ConvTranspose2d(32, image_channels, kernel_size=3, stride=2, padding=1),
-            # nn.Sigmoid(),
-            # nn.ConvTranspose2d(32, 32, kernel_size=3, stride=2, padding=1, output_padding=1),
-            # nn.ReLU(True),
             nn.ConvTranspose2d(16, 3, kernel_size=3, stride=2, padding=1, output_padding=1),
             nn.BatchNorm2d(3),
             nn.Sigmoid()
@@ -349,10 +331,9 @@ class VAE(nn.Module):
 
     def reparameterize(self, mu, logvar):
         std = logvar.mul(0.5).exp_()
-        # return torch.normal(mu, std)
         esp = torch.randn(*mu.size())
         z = mu + std * esp
-        return z
+        return z        # return torch.normal(mu, std)
 
     def bottleneck(self, h):
         mu, logvar = self.fc1(h), self.fc2(h)
@@ -365,20 +346,12 @@ class VAE(nn.Module):
     def forward(self, x):
         h = self.encoder(x)
         flattened_h = torch.reshape(h, (h.size(0), -1))
-
-        z, mu, logvar = self.bottleneck(flattened_h)
-        # z is the decoded..
+        z, mu, logvar = self.bottleneck(flattened_h)        # z is the encoded
         z = self.fc3(z)
         z = torch.reshape(z, (z.size(0), 128, 13, 10))
         return self.decoder(z), mu, logvar
 
 def loss_fn(recon_x, x, mu, logvar):
         BCE = F.binary_cross_entropy(recon_x, x, reduction='sum')
-        # BCE = F.mse_loss(recon_x, x, size_average=False)
-
-        # see Appendix B from VAE paper:
-        # Kingma and Welling. Auto-Encoding Variational Bayes. ICLR, 2014
-        # 0.5 * sum(1 + log(sigma^2) - mu^2 - sigma^2)
         KLD = -0.5 * torch.mean(1 + logvar - mu.pow(2) - logvar.exp())
-
         return BCE + KLD, BCE, KLD
