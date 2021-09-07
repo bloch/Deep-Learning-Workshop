@@ -10,7 +10,9 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 
 ![alt text](https://github.com/bloch/Deep-Learning-Workshop/blob/master/Visualizations/dataset_examples.png?raw=true)
 
-https://vimeo.com/599656841
+
+Link to demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
+
 
 # Demos
 
