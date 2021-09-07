@@ -11,13 +11,11 @@ from utils.blocks import decompose, compose
 def print_error_message():
     print("Bad number of arguments.\n" +
           "Run the video demo using the command python video_demo.py <demo_video_index> <model_type> <compress_every>\n" +
-          "where demo_video_index is an integer 0-9, model_type is one of vanilla, multilayer, conv4, conv5 and vae \n" +
-          "and compress_every is an integer representing the frequency of compression of frames,\n" +
-          "i.e, for compress_every = 10, every 10th frame will be compressed.")
+          "where demo_video_index is an integer 0-9, model_type is one of vanilla, multilayer, conv4, conv5 and vae.")
 
 
-if len(sys.argv) == 4:  # we assume arguments are from correct type
-    demo_video_index, model_type, compress_every = int(sys.argv[1]), sys.argv[2], int(sys.argv[3])
+if len(sys.argv) == 3:  # we assume arguments are from correct type
+    demo_video_index, model_type, compress_every = int(sys.argv[1]), sys.argv[2], 1
     running_psnr, running_ssim = 0.0, 0.0
     demo_video = cv2.VideoCapture(os.path.join(DEMOS_VIDEO_DIR, "demo" + str(demo_video_index) + ".mp4"))
     if model_type == "conv4" or model_type == "conv5" or model_type == "vae":
