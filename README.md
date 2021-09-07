@@ -29,7 +29,7 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    ########################################### TO BE CONTINUED...##################################3
 4. Now everything is ready for running the demo.
    
-   For using the a single frame demo, one should open a terminal and run the following command:
+   - For using the a single frame demo, one should open a terminal and run the following command:
    
         python frame_demo.py <frame_index> <model_type>
     
@@ -42,5 +42,7 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    The frame demo will show the original image on the left and the reconstruction from the compressed represenation on the right.
    
    It also saves the reconstructed image in the demo_results directory with the name '<demo_type>_compressed_frame<frame_index>.jpg'.
+   
+   - For using the video demo, one should open a terminal and run the following command:
    
 
