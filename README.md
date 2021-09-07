@@ -27,8 +27,10 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    
    This should look like Deep-Learning-Workshop-master\demo_models.
    
-3. Open a terminal within the Deep-Learning-Workshop-master directory and run the requirements..
-   ########################################### TO BE CONTINUED...##################################3
+3. Optional(if installations problems occur): Open a terminal within the Deep-Learning-Workshop-master directory and run the following command to install required packages:
+
+            pip install -r requirements.txt
+            
 4. Now everything is ready for running the demo.
    
    - For using the a single frame demo, one should open a terminal and run the following command:
