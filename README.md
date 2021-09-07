@@ -8,7 +8,9 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 
 
 
-Demo instructions
+# Demo instructions
+
+
 1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
    
    This can be done by clicking on the green button of 'Code' and using the 'Download ZIP' option.
