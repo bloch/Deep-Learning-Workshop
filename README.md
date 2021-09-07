@@ -34,7 +34,7 @@ Link to demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2d
    
    This should look like Deep-Learning-Workshop-master\demo_models.
    
-3. Optional(if installations problems occur): Open a terminal within the Deep-Learning-Workshop-master directory and run the following command to install required packages:
+3. Optional(if installation problems occur): Open a terminal within the Deep-Learning-Workshop-master directory and run the following command to install required packages:
 
             pip install -r requirements.txt
             
