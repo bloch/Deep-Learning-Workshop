@@ -17,7 +17,7 @@ Link to demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2d
 # Demos
 
 
-# Live Demo instructions
+# Live Demo Instructions
 
 
 1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
