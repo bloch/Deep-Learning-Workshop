@@ -16,7 +16,9 @@ Demo instructions
    Then, extract the contents of the ZIP. This will create a new directory named 'Deep-Learning-Workshop-master' which includes all the code.
    
 2. Download the demo models from the following link:
+
    https://drive.google.com/drive/folders/1-unbekPRk1qUICMMxzVB59wNmXpQp4RG?usp=sharing
+   
    and extract the contents(one directory named demo_models with all the models included in it) to the folder Deep-Learning-Workshop-master.
    
    This should look like Deep-Learning-Workshop-master\demo_models.
