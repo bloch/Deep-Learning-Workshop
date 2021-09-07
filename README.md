@@ -28,7 +28,9 @@ Demo instructions
 4. Now everything is ready for running the demo.
    
    For using the a single frame demo, one should open a terminal and run the following command:
+   
         python frame_demo.py <frame_index> <model_type>
+    
    where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,          multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
    
    For example example:    python frame_index.py 1 conv4
