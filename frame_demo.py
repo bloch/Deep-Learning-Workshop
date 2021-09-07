@@ -1,10 +1,8 @@
 import sys
-import os
-import cv2
 from models import *
 from dataset import CompressDataset
 import numpy as np
-
+from demo_params import *
 from utils.PSNR import compare_frames
 from utils.blocks import *
 
