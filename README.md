@@ -1,5 +1,9 @@
 
 
+https://user-images.githubusercontent.com/40773674/132379488-0e5364dc-35a5-4223-969a-72aab5ee42fc.mp4
+
+
+
 
 # Deep Learning Workshop
 
