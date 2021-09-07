@@ -31,13 +31,13 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    
    - For using the a single frame demo, one should open a terminal and run the following command:
    
-        python frame_demo.py <frame_index> <model_type>
+            python frame_demo.py <frame_index> <model_type>
     
-      where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,        multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
+      where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,           multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
    
       For example:
    
-            python frame_index.py 1 conv4
+            python frame_demo.py 1 conv4
    
       The frame demo will show the original image on the left and the reconstruction from the compressed represenation on the right.
    
@@ -45,4 +45,16 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    
    - For using the video demo, one should open a terminal and run the following command:
    
-
+            python video_demo.py <video_index> <model_type>
+      
+      where video_index is an integer between 0-9 representing which video to compress from the demo_videos directory, and model_type is one of the following options: vanilla,           multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
+   
+      For example:
+   
+            python video_demo.py 3 vanilla
+      
+      The video demo will show the the reconstructed video.
+   
+      It also saves the reconstructed video in the demo_results directory with the name '<demo_type>_compressed_video<video_index>.jpg'.
+      
+ Both demos will print PSNR and SSIM (compression performance measurements) of the compressed frame/video.
