@@ -33,15 +33,15 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    
         python frame_demo.py <frame_index> <model_type>
     
-   where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,        multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
+      where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,        multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
    
-   For example:
+      For example:
    
-         python frame_index.py 1 conv4
+            python frame_index.py 1 conv4
    
-   The frame demo will show the original image on the left and the reconstruction from the compressed represenation on the right.
+      The frame demo will show the original image on the left and the reconstruction from the compressed represenation on the right.
    
-   It also saves the reconstructed image in the demo_results directory with the name '<demo_type>_compressed_frame<frame_index>.jpg'.
+      It also saves the reconstructed image in the demo_results directory with the name '<demo_type>_compressed_frame<frame_index>.jpg'.
    
    - For using the video demo, one should open a terminal and run the following command:
    
