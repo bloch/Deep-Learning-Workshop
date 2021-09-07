@@ -2,14 +2,6 @@
 
 
 
-<video width="320" height="240" controls>
-  <source type="video/mp4" src="https://user-images.githubusercontent.com/40773674/132379816-0bd0a04e-6921-4983-a7fd-32437a56d930.mp4">
-</video>
-
-
-
-
-
 # Deep Learning Workshop
 
 This repo contains our workshop's code and demos. Our workshop is about image compression via deep learning. We implemented several different models for image compression and we used that models for video compression as well.
