@@ -9,9 +9,12 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 
 
 Demo instructions
-1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder). This can be done by clicking on the green button    of 'Code' and using the 'Download ZIP' option.
+1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
+   
+   This can be done by clicking on the green button of 'Code' and using the 'Download ZIP' option.
    
    Then, extract the contents of the ZIP. This will create a new directory named 'Deep-Learning-Workshop-master' which includes all the code.
+   
 2. Download the demo models from the following link:
    https://drive.google.com/drive/folders/1-unbekPRk1qUICMMxzVB59wNmXpQp4RG?usp=sharing
    and extract the contents(one directory named demo_models with all the models included in it) to the folder Deep-Learning-Workshop-master.
