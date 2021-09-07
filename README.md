@@ -31,9 +31,11 @@ Demo instructions
    
         python frame_demo.py <frame_index> <model_type>
     
-   where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,          multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
+   where frame_index is an integer between 0-9 representing which frame to compress from the demo_images directory, and model_type is one of the following options: vanilla,        multilayer, conv4, conv5, vae, and this however represents what model the user wishes to use for compression.
    
-   For example example:    python frame_index.py 1 conv4
+   For example:
+   
+         python frame_index.py 1 conv4
    
    The frame demo will show the original image on the left and the reconstruction from the compressed represenation on the right.
    
