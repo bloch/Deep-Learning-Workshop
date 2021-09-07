@@ -10,7 +10,8 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 
 ![alt text](https://github.com/bloch/Deep-Learning-Workshop/blob/master/Visualizations/dataset_examples.png?raw=true)
 
-https://user-images.githubusercontent.com/40773674/132379119-25abc140-d95b-45dd-ae89-0f023fe14f79.mp4
+https://vimeo.com/599656841
+
 # Demos
 
 
