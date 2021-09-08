@@ -1,16 +1,32 @@
+
+
+
+
+
 # Deep Learning Workshop
 
 This repo contains our workshop's code and demos. Our workshop is about image compression via deep learning. We implemented several different models for image compression and we used that models for video compression as well.
 
-# Dataset examples
+# Dataset
+
+Fullsize(200x160 resolution) examples
 
 ![alt text](https://github.com/bloch/Deep-Learning-Workshop/blob/master/Visualizations/dataset_examples.png?raw=true)
+
+
+Blocks(50x40 resolution per block) example
+
+![blocks_frame6](https://user-images.githubusercontent.com/40773674/132466274-eb7b7da7-d7c7-4cf4-8a64-641118f074bd.jpg)
+
+Link to dataset videos: https://drive.google.com/drive/folders/18JMDnRvgXlI3wSm0Un_NZf8baUxrrHx4?usp=sharing
+
+Link to short (original) demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
 
 
 # Demos
 
 
-# Live Demo instructions
+# Live Demo Instructions
 
 
 1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
@@ -27,8 +43,10 @@ This repo contains our workshop's code and demos. Our workshop is about image co
    
    This should look like Deep-Learning-Workshop-master\demo_models.
    
-3. Open a terminal within the Deep-Learning-Workshop-master directory and run the requirements..
-   ########################################### TO BE CONTINUED...##################################3
+3. Optional(if installation problems occur): Open a terminal within the Deep-Learning-Workshop-master directory and run the following command to install required packages:
+
+            pip install -r requirements.txt
+            
 4. Now everything is ready for running the demo.
    
    - For using the a single frame demo, one should open a terminal and run the following command:
