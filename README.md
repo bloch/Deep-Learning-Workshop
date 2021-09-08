@@ -28,6 +28,8 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 The results of compression of frame1.jpg (from the demo_images directory) by the command
    
       python frame_demo.py 1 <model_type>   
+      
+where <model_type> is written above the corresponding image. 
 
 ![grid1](https://user-images.githubusercontent.com/40773674/132481462-44c09376-6b75-4630-8d1f-201cddc5dd4b.png)
 
