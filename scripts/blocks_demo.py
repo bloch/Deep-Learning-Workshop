@@ -1,8 +1,6 @@
 import cv2
 from matplotlib import pyplot as plt
-import random
 import os
-from params import TRAINING_SET_DIR
 from utils.blocks import decompose
 
 # This script takes a random fullsize frame and saves a grid of 16 blocks of frames.
