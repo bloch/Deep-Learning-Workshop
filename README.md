@@ -35,7 +35,7 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
    
    Then, extract the contents of the ZIP. This will create a new directory named 'Deep-Learning-Workshop-master' which includes all the code.
    
-2. Download the demo models from the following link:
+2. Download the demo models(the base directory of the link) from the following link:
 
    https://drive.google.com/drive/folders/1-unbekPRk1qUICMMxzVB59wNmXpQp4RG?usp=sharing
    
