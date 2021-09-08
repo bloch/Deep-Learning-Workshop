@@ -25,9 +25,15 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 
 # Demo Showcase
 
+The results of compression of frame1.jpg (from the demo_images directory) by the command
+   
+    python frame_demo.py 1 <model_type>   
+
 ![grid1](https://user-images.githubusercontent.com/40773674/132481462-44c09376-6b75-4630-8d1f-201cddc5dd4b.png)
 
 ![grid2](https://user-images.githubusercontent.com/40773674/132481485-f34fb53f-d2fd-43c9-8984-e2e694eff88c.png)
+
+
 
 
 
