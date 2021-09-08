@@ -20,7 +20,7 @@ Blocks(50x40 resolution per block) example
 
 Link to dataset videos: https://drive.google.com/drive/folders/18JMDnRvgXlI3wSm0Un_NZf8baUxrrHx4?usp=sharing
 
-Link to demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
+Link to short (original) demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
 
 
 # Demos
