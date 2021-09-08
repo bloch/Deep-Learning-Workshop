@@ -44,6 +44,18 @@ where <model_type> is written above the corresponding image.
 
 ## Frame Compression Demo 2 (frame2.jpg)
 
+The results of compression of frame1.jpg (from the demo_images directory) by the command
+   
+      python frame_demo.py 2 <model_type>   
+      
+where <model_type> is written above the corresponding image. 
+
+![frame2_part1](https://user-images.githubusercontent.com/40773674/132506277-f20142ea-e1b2-4dad-8433-8633e1af75a1.png)
+
+![frame2_part2](https://user-images.githubusercontent.com/40773674/132506283-e746658d-4987-4de9-821b-5a3220d2e635.png)
+
+
+
 -------------
 
 ## Frame Compression Demo 3 (frame3.jpg)
