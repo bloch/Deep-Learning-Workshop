@@ -7,7 +7,7 @@
 
 This repo contains our workshop's code and demos. Our workshop is about image compression via deep learning. We implemented several different models for image compression and we used that models for video compression as well.
 
-# Dataset examples
+# Dataset
 
 Fullsize(200x160 resolution) examples
 
