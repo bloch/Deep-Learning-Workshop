@@ -56,7 +56,7 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-Video demos showcases:
+### Video demos showcases
 
 Video demo 1: https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
 
