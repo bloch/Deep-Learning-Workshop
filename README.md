@@ -126,7 +126,15 @@ Link to videos(original & compressed version of each model): https://drive.googl
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
 
-A table that concludes the PSNR & SSIM results on demo3.mp4
+#### A table that concludes the PSNR & SSIM results on demo3.mp4
+
+Model name | PSNR | SSIM 
+------------ | -------------  | -------------
+| vanilla | 29.967 | 0.896 |
+| multilayer | 28.611 | 0.900 |
+| conv4 | 28.172 | 0.837 |
+| conv5 | 27.556 | 0.849 |
+| vae | 25.881 | 0.871 |
 
 
 -------------
