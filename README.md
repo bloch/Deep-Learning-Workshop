@@ -44,6 +44,9 @@ The results of compression of frame3.jpg (from the demo_images directory) by the
       
 where <model_type> is written above the corresponding image. 
 
+![frame3_part1](https://user-images.githubusercontent.com/40773674/132502683-43c1316a-2f23-4109-b667-05cc9bef5774.png)
+
+![frame3_part2](https://user-images.githubusercontent.com/40773674/132502690-32841a2d-c121-4ce2-8603-3d03d6d962e8.png)
 
 
 
