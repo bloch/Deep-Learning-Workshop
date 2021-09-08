@@ -23,7 +23,12 @@ Link to dataset videos: https://drive.google.com/drive/folders/18JMDnRvgXlI3wSm0
 Link to short (original) demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
 
 
-# Demos
+# Demo Showcase
+
+![grid1](https://user-images.githubusercontent.com/40773674/132481462-44c09376-6b75-4630-8d1f-201cddc5dd4b.png)
+
+![grid2](https://user-images.githubusercontent.com/40773674/132481485-f34fb53f-d2fd-43c9-8984-e2e694eff88c.png)
+
 
 
 # Live Demo Instructions
