@@ -101,16 +101,11 @@ Link to videos(original & compressed version of each model): https://drive.googl
 
 A table that concludes the PSNR & SSIM results on demo2.mp4
 
-###Video2 compression quality
-
+###Video1 compression quality 
 Model name | PSNR | SSIM 
-
 ------------ | -------------  | -------------
-
 vanilla | 31.253 | 0.921
-
 multilayer | 31.041 | 0.921
-
 conv4 | 29.993 | 0.895
 conv5 | 28.934 | 0.873
 vae | 27.923 | 0.892
