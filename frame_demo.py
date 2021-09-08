@@ -1,4 +1,7 @@
 import sys
+
+from matplotlib import pyplot as plt
+
 from models import *
 from dataset import CompressDataset
 import numpy as np
@@ -43,8 +46,22 @@ if len(sys.argv) == 3:  # we assume arguments are from correct type
 
         compressed_frame = compressed_frames[0]
         cv2.imwrite(compressed_image_path, compressed_frame)
-        cv2.imshow("compressed image", compressed_frame)
-        cv2.waitKey()
+        # cv2.imshow("compressed image", compressed_frame)
+        # cv2.waitKey()
+        f, axarr = plt.subplots(nrows=1, ncols=2)
+        axarr[0].imshow(cv2.cvtColor(original_image, cv2.COLOR_BGR2RGB))
+        axarr[0].set_title("original")
+        axarr[0].set_xticklabels([])
+        axarr[0].set_yticklabels([])
+        axarr[0].set_xticks([])
+        axarr[0].set_yticks([])
+        axarr[1].imshow(cv2.cvtColor(compressed_frame, cv2.COLOR_BGR2RGB))
+        axarr[1].set_title("compressed by " + model_type)
+        axarr[1].set_xticklabels([])
+        axarr[1].set_yticklabels([])
+        axarr[1].set_xticks([])
+        axarr[1].set_yticks([])
+        plt.show()
         ssim, psnr = compare_frames(compressed_frame, original_image)
         print("The compressed image was saved in " + compressed_image_path + ".")
         print("PSNR: " + str(psnr) + "\n")
