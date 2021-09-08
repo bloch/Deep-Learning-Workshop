@@ -70,6 +70,7 @@ if len(sys.argv) == 3:  # we assume arguments are from correct type
 
         compressed_video.release()
         cv2.destroyAllWindows()
+        print("The compressed video was saved in " + os.path.join("demo_results", model_type + "_compressed_video" + str(demo_video_index) + ".mp4") + ".")
         print("PSNR: " + str(running_psnr / len(frames_to_compress)) + "\n")
         print("SSIM: " + str(running_ssim / len(frames_to_compress)) + "\n")
         print("Hope you enjoyed, bye bye!")
@@ -136,6 +137,7 @@ if len(sys.argv) == 3:  # we assume arguments are from correct type
 
         compressed_video.release()
         cv2.destroyAllWindows()
+        print("The compressed video was saved in " + os.path.join("demo_results", model_type + "_compressed_video" + str(demo_video_index) + ".mp4") + ".")
         print("PSNR: " + str(running_psnr / len(frames_to_compress[0])) + "\n")
         print("SSIM: " + str(running_ssim / len(frames_to_compress[0])) + "\n")
         print("Hope you enjoyed, bye bye!")
