@@ -44,7 +44,7 @@ where <model_type> is written above the corresponding image.
 
 ## Frame Compression Demo 2 (frame2.jpg)
 
-The results of compression of frame1.jpg (from the demo_images directory) by the command
+The results of compression of frame2.jpg (from the demo_images directory) by the command
    
       python frame_demo.py 2 <model_type>   
       
