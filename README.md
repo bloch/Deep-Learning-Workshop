@@ -18,9 +18,9 @@ Blocks(50x40 resolution per block) example
 
 ![blocks_frame6](https://user-images.githubusercontent.com/40773674/132466274-eb7b7da7-d7c7-4cf4-8a64-641118f074bd.jpg)
 
-Link to dataset videos: https://drive.google.com/drive/folders/18JMDnRvgXlI3wSm0Un_NZf8baUxrrHx4?usp=sharing
+Link to dataset videos(original captured 1920x1080): https://drive.google.com/drive/folders/18JMDnRvgXlI3wSm0Un_NZf8baUxrrHx4?usp=sharing
 
-Link to short (original) demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
+Link to short (original) demo videos(200x160): https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
 
 
 # Demo Showcase
