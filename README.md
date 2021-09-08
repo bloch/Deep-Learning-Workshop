@@ -89,7 +89,7 @@ In the next demos, we used our image compression models on videos. We compressed
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
 
-####A table that concludes the PSNR & SSIM results on demo1.mp4
+#### A table that concludes the PSNR & SSIM results on demo1.mp4
 
 
 | Model name | PSNR | SSIM |
