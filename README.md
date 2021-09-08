@@ -27,7 +27,7 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 
 -------------
 
-## frame1.jpg Frame Compression Demo
+## Frame Compression Demo 1 (frame1.jpg)
 
 The results of compression of frame1.jpg (from the demo_images directory) by the command
    
@@ -42,11 +42,11 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-## frame2.jpg Frame Compression Demo
+## Frame Compression Demo 2 (frame2.jpg)
 
 -------------
 
-## frame3.jpg Frame Compression Demo
+## Frame Compression Demo 3 (frame3.jpg)
 
 The results of compression of frame3.jpg (from the demo_images directory) by the command
    
