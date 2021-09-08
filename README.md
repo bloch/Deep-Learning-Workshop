@@ -35,6 +35,10 @@ where <model_type> is written above the corresponding image.
 
 ![frame1_part2](https://user-images.githubusercontent.com/40773674/132501798-246883c4-a815-4b81-b813-1f9b9c4e537c.png)
 
+
+-------------
+
+
 -------------
 
 
@@ -49,6 +53,16 @@ where <model_type> is written above the corresponding image.
 ![frame3_part2](https://user-images.githubusercontent.com/40773674/132502690-32841a2d-c121-4ce2-8603-3d03d6d962e8.png)
 
 
+
+-------------
+
+Video demos showcases:
+
+Video demo 1: https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
+
+Video demo 2:
+
+Video demo 3: https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
 
 
 # Live Demo Instructions
