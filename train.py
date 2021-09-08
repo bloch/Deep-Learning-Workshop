@@ -68,16 +68,6 @@ def train(model, training_loader, criterion, optimizer, epochs, N):
                 print('[%d, %8d] loss: %f' % (epoch, i + 1, running_loss / 10))
                 running_loss = 0.0
 
-            if (i+1) % 10 == 0:   # every 10 mini-batches, save a pair of (original image, reconstructed image)
-                rand_num = randrange(BATCH_SIZE)
-                original_img = inputs[rand_num].detach().numpy().reshape((200, 160, 3)) * 255
-                reconstructed_img = outputs[rand_num].detach().numpy().reshape((200, 160, 3)) * 255
-                reconstructed_img = np.clip(reconstructed_img, 0, 255)
-                reconstructed_img = reconstructed_img.astype(np.uint8)
-                # TODO: to be changed for vanilla and multilayer
-                cv2.imwrite(model.results_dir_path + "\\epoch" + str(epoch) + "_" + str(i+1) + "_original.jpg", original_img)
-                cv2.imwrite(model.results_dir_path + "\\epoch" + str(epoch) + "_" + str(i+1) + "_reconstructed.jpg", reconstructed_img)
-
         torch.save(model.state_dict(), model.path)
         train_loss_file.write(str(epoch) + "," + str(epoch_running_loss / N) + "\n")
         train_loss_file.close()
