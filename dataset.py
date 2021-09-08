@@ -1,7 +1,8 @@
+import os
 import torch
 import cv2
 import numpy as np
-from params import *
+
 
 
 class Dataset(torch.utils.data.Dataset):

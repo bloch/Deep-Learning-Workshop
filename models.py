@@ -1,5 +1,5 @@
 import torch.nn as nn
-from params import *
+from demo_params import *
 from utils.quantization import *
 import torch.nn.functional as F
 
