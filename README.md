@@ -27,9 +27,9 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 
 -------------
 
-# Demo Frames Compression
+## Demo Frames Compression
 
-## Frame Compression Demo 1 (frame1.jpg)
+### Frame Compression Demo 1 (frame1.jpg)
 
 The results of compression of frame1.jpg (from the demo_images directory) by the command
    
@@ -44,7 +44,7 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-## Frame Compression Demo 2 (frame2.jpg)
+### Frame Compression Demo 2 (frame2.jpg)
 
 The results of compression of frame2.jpg (from the demo_images directory) by the command
    
@@ -60,7 +60,7 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-## Frame Compression Demo 3 (frame3.jpg)
+### Frame Compression Demo 3 (frame3.jpg)
 
 The results of compression of frame3.jpg (from the demo_images directory) by the command
    
@@ -76,25 +76,25 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-# Demo Videos Compression
+## Demo Videos Compression
 
 In the next demos, we used our image compression models on videos. We compressed every frame of the video and saved the reconstruction so it is in fact the compressed reconstruction achieved by the models we trained.
 
-## Video Compression Demo 1 (demo1.mp4)
+### Video Compression Demo 1 (demo1.mp4)
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
 
 A table that concludes the PSNR & SSIM results on demo1.mp4
 
 
-## Video Compression Demo 2 (demo2.mp4)
+### Video Compression Demo 2 (demo2.mp4)
 
 Link to videos(original & compressed version of each model):
 
 A table that concludes the PSNR & SSIM results on demo3.mp4
 
 
-## Video Compression Demo 3 (demo3.mp4)
+### Video Compression Demo 3 (demo3.mp4)
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
 
