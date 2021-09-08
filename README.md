@@ -29,6 +29,9 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 
 ## Demo Frames Compression
 
+In the next demos, we used our image compression models on single frames. We show the original frame, and the reconstructed images by each of the models.
+The model type is written above the reconstructed frame, and below the PSNR & SSIM ratings.
+
 -------------
 
 ### Frame Compression Demo 1 (frame1.jpg)
