@@ -1,6 +1,3 @@
-![dataset_examples](https://user-images.githubusercontent.com/40773674/132571126-039ee027-fdb3-4295-b40b-66ba4ecafc04.png)
-
-
 
 
 
