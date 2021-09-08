@@ -31,9 +31,18 @@ The results of compression of frame1.jpg (from the demo_images directory) by the
       
 where <model_type> is written above the corresponding image. 
 
-![grid1](https://user-images.githubusercontent.com/40773674/132481462-44c09376-6b75-4630-8d1f-201cddc5dd4b.png)
+![frame1_part1](https://user-images.githubusercontent.com/40773674/132501789-2f118516-e139-43da-9fb8-63ad1e465bbe.png)
 
-![grid2](https://user-images.githubusercontent.com/40773674/132481485-f34fb53f-d2fd-43c9-8984-e2e694eff88c.png)
+![frame1_part2](https://user-images.githubusercontent.com/40773674/132501798-246883c4-a815-4b81-b813-1f9b9c4e537c.png)
+
+
+
+
+The results of compression of frame3.jpg (from the demo_images directory) by the command
+   
+      python frame_demo.py 3 <model_type>   
+      
+where <model_type> is written above the corresponding image. 
 
 
 
