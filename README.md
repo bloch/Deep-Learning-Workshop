@@ -25,6 +25,10 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 
 # Demo Showcase
 
+-------------
+
+## frame2.jpg compression demo
+
 The results of compression of frame1.jpg (from the demo_images directory) by the command
    
       python frame_demo.py 1 <model_type>   
@@ -38,9 +42,11 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
+## frame2.jpg compression demo
 
 -------------
 
+## frame3.jpg compression demo
 
 The results of compression of frame3.jpg (from the demo_images directory) by the command
    
@@ -56,7 +62,7 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-### Video demos showcases
+## Video demos showcases
 
 Video demo 1: https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
 
