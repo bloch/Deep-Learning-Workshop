@@ -23,10 +23,129 @@ Link to dataset videos: https://drive.google.com/drive/folders/18JMDnRvgXlI3wSm0
 Link to short (original) demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
 
 
-# Demos
+# Demo Showcase
+
+-------------
+
+## Demo Frames Compression
+
+In the next demos, we used our image compression models on single frames. We show the original frame, and the reconstructed images by each of the models.
+The model type is written above the reconstructed frame, and below the PSNR & SSIM ratings.
+
+-------------
+
+### Frame Compression Demo 1 (frame1.jpg)
+
+The results of compression of frame1.jpg (from the demo_images directory) by the command
+   
+      python frame_demo.py 1 <model_type>   
+      
+where <model_type> is written above the corresponding image. 
+
+![frame1_part1](https://user-images.githubusercontent.com/40773674/132501789-2f118516-e139-43da-9fb8-63ad1e465bbe.png)
+
+![frame1_part2](https://user-images.githubusercontent.com/40773674/132501798-246883c4-a815-4b81-b813-1f9b9c4e537c.png)
+
+
+-------------
+
+### Frame Compression Demo 2 (frame2.jpg)
+
+The results of compression of frame2.jpg (from the demo_images directory) by the command
+   
+      python frame_demo.py 2 <model_type>   
+      
+where <model_type> is written above the corresponding image. 
+
+![frame2_part1](https://user-images.githubusercontent.com/40773674/132506277-f20142ea-e1b2-4dad-8433-8633e1af75a1.png)
+
+![frame2_part2](https://user-images.githubusercontent.com/40773674/132506283-e746658d-4987-4de9-821b-5a3220d2e635.png)
+
+
+
+-------------
+
+### Frame Compression Demo 3 (frame3.jpg)
+
+The results of compression of frame3.jpg (from the demo_images directory) by the command
+   
+      python frame_demo.py 3 <model_type>   
+      
+where <model_type> is written above the corresponding image. 
+
+![frame3_part1](https://user-images.githubusercontent.com/40773674/132502683-43c1316a-2f23-4109-b667-05cc9bef5774.png)
+
+![frame3_part2](https://user-images.githubusercontent.com/40773674/132502690-32841a2d-c121-4ce2-8603-3d03d6d962e8.png)
+
+
+
+-------------
+
+## Demo Videos Compression
+
+In the next demos, we used our image compression models on videos. We compressed every frame of the video and saved the reconstruction so it is in fact the compressed reconstruction achieved by the models we trained.
+
+
+-------------
+
+### Video Compression Demo 1 (demo1.mp4)
+
+Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
+
+#### A table that concludes the PSNR & SSIM results on demo1.mp4
+
+
+| Model name | PSNR | SSIM |
+| ------------ | ------------ | ------------ |
+| vanilla | 29.032 | 0.900 |
+| multilayer | 27.749 | 0.896 |
+| conv4 | 28.357 | 0.869 |
+| conv5 | 26.946 | 0.862 |
+| vae | 25.072 | 0.863 |
+
+
+-------------
+
+### Video Compression Demo 2 (demo2.mp4)
+
+Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1n_g8e0mICJ8Lbv_mvhGbn3DItXf_t-yW?usp=sharing
+
+#### A table that concludes the PSNR & SSIM results on demo2.mp4
+
+
+| Model name | PSNR | SSIM |
+| ------------ | ------------ | ------------ |
+| vanilla | 31.253 | 0.921 |
+| multilayer | 31.041 | 0.921 |
+| conv4 | 29.993 | 0.895 |
+| conv5 | 28.934 | 0.873 |
+| vae | 27.923 | 0.892 |
+
+
+
+-------------
+
+### Video Compression Demo 3 (demo3.mp4)
+
+Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
+
+#### A table that concludes the PSNR & SSIM results on demo3.mp4
+
+Model name | PSNR | SSIM 
+------------ | -------------  | -------------
+| vanilla | 29.967 | 0.896 |
+| multilayer | 28.611 | 0.900 |
+| conv4 | 28.172 | 0.837 |
+| conv5 | 27.556 | 0.849 |
+| vae | 25.881 | 0.871 |
+
+
+-------------
 
 
 # Live Demo Instructions
+
+### Remark: The downloads & installations required in order to run a live demo will take several minutes and a descent amount of storage(~4.5GB), and therefore we provided the above demo examples for convience(so one doesn't have to run the live demo to see some results).
 
 
 1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
