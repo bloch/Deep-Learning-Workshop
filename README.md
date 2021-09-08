@@ -29,6 +29,8 @@ Link to short (original) demo videos: https://drive.google.com/drive/folders/12I
 
 ## Demo Frames Compression
 
+-------------
+
 ### Frame Compression Demo 1 (frame1.jpg)
 
 The results of compression of frame1.jpg (from the demo_images directory) by the command
@@ -79,6 +81,9 @@ where <model_type> is written above the corresponding image.
 ## Demo Videos Compression
 
 In the next demos, we used our image compression models on videos. We compressed every frame of the video and saved the reconstruction so it is in fact the compressed reconstruction achieved by the models we trained.
+
+
+-------------
 
 ### Video Compression Demo 1 (demo1.mp4)
 
