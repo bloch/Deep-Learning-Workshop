@@ -14,7 +14,7 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 
 Blocks approach demonstration: a partition of a frame to 16 blocks 
 
-         ![blocks_frame6](https://user-images.githubusercontent.com/40773674/132466274-eb7b7da7-d7c7-4cf4-8a64-641118f074bd.jpg)
+![blocks_frame6](https://user-images.githubusercontent.com/40773674/132466274-eb7b7da7-d7c7-4cf4-8a64-641118f074bd.jpg)
 
 
 Link to demo videos: https://drive.google.com/drive/folders/12I6lkQK_qhdikqtRK2dXcNwzlGLiEZi5?usp=sharing
