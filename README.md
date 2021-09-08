@@ -99,8 +99,7 @@ A table that concludes the PSNR & SSIM results on demo1.mp4
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1n_g8e0mICJ8Lbv_mvhGbn3DItXf_t-yW?usp=sharing
 
-A table that concludes the PSNR & SSIM results on demo2.mp4
-
+#### A table that concludes the PSNR & SSIM results on demo2.mp4
 
 
 | Model name | PSNR | SSIM |
