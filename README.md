@@ -35,7 +35,7 @@ where <model_type> is written above the corresponding image.
 
 ![frame1_part2](https://user-images.githubusercontent.com/40773674/132501798-246883c4-a815-4b81-b813-1f9b9c4e537c.png)
 
-
+-------------
 
 
 The results of compression of frame3.jpg (from the demo_images directory) by the command
