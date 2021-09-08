@@ -101,6 +101,8 @@ Link to videos(original & compressed version of each model): https://drive.googl
 
 A table that concludes the PSNR & SSIM results on demo2.mp4
 
+
+
 | Model name | PSNR | SSIM |
 
 
