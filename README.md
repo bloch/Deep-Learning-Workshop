@@ -1,3 +1,4 @@
+![dataset_examples](https://user-images.githubusercontent.com/40773674/132571126-039ee027-fdb3-4295-b40b-66ba4ecafc04.png)
 
 
 
@@ -12,6 +13,8 @@ This repo contains our workshop's code and demos. Our workshop is about image co
 Fullsize(200x160 resolution) examples
 
 ![alt text](https://github.com/bloch/Deep-Learning-Workshop/blob/master/Visualizations/dataset_examples.png?raw=true)
+
+![dataset_examples](https://user-images.githubusercontent.com/40773674/132571126-039ee027-fdb3-4295-b40b-66ba4ecafc04.png)
 
 
 Blocks(50x40 resolution per block) example
