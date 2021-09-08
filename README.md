@@ -87,6 +87,8 @@ Link to videos(original & compressed version of each model): https://drive.googl
 A table that concludes the PSNR & SSIM results on demo1.mp4
 
 
+-------------
+
 ### Video Compression Demo 2 (demo2.mp4)
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1n_g8e0mICJ8Lbv_mvhGbn3DItXf_t-yW?usp=sharing
@@ -94,12 +96,16 @@ Link to videos(original & compressed version of each model): https://drive.googl
 A table that concludes the PSNR & SSIM results on demo2.mp4
 
 
+-------------
+
 ### Video Compression Demo 3 (demo3.mp4)
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
 
 A table that concludes the PSNR & SSIM results on demo3.mp4
 
+
+-------------
 
 
 # Live Demo Instructions
