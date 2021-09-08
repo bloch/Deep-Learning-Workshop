@@ -74,13 +74,28 @@ where <model_type> is written above the corresponding image.
 
 -------------
 
-## Video demos showcases
+In the next demos, we used our image compression models on videos. We compressed every frame of the video and saved the reconstruction so it is in fact the compressed reconstruction achieved by the models we trained.
 
-Video demo 1: https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
+## Video Compression Demo 1 (demo1.mp4)
 
-Video demo 2:
+Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
 
-Video demo 3: https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
+A table that concludes the PSNR & SSIM results on demo1.mp4
+
+
+## Video Compression Demo 2 (demo2.mp4)
+
+Link to videos(original & compressed version of each model):
+
+A table that concludes the PSNR & SSIM results on demo3.mp4
+
+
+## Video Compression Demo 3 (demo3.mp4)
+
+Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
+
+A table that concludes the PSNR & SSIM results on demo3.mp4
+
 
 
 # Live Demo Instructions
