@@ -174,11 +174,12 @@ Model name | PSNR | SSIM
    
    Remark: Multilayer and VAE models are heavy and were not uploaded to this git repo and are stored on Google drive. If one wants to use the multilayer and VAE models in the live    demo, he should download them from the drive and locate them in the following way: 
       - the vae.pt file should be at the demo_models directory(the relative path should be 'Deep-Learning-Workshop-master/demo_models/vae.pt').
-        Download the vae model(vae.pt file) from the following link: https://drive.google.com/file/d/1qfrRyRIYVIBpiMW7WV3di8Q2KdroFK7F/view?usp=sharing.
+        Download (and extract from the zip file) the vae model(vae.pt file) from the following link: https://drive.google.com/file/d/1qfrRyRIYVIBpiMW7WV3di8Q2KdroFK7F/view?usp=sharing.
       - the multilayer model(consists of 16 .pt files) should be a sub-directory at the demo_models directory, and the relative path should
-        be 'Deep-Learning-Workshop-master\demo_models\multilayer\\'.
-        Download the multilayer models dir from https://drive.google.com/drive/folders/1SRe9r7zjkBkO0VPOmzQNrdnJaZktdSiE?usp=sharing.
-            
+        be 'Deep-Learning-Workshop-master/demo_models/multilayer//'.
+        Download (and extract from the zip files) the multilayer models dir from https://drive.google.com/drive/folders/1SRe9r7zjkBkO0VPOmzQNrdnJaZktdSiE?usp=sharing.
+        This might be downloaded in a seperate zip files, and you have to merge all the .pt files to the 'demo_models/multilayer/ directory.
+        
    
 2. The demo_models directory should look like(after downloading the extra models from the drive):
    
