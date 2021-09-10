@@ -88,6 +88,12 @@ In the next demos, we used our image compression models on videos. We compressed
 
 ### Video Compression Demo 1 (demo1.mp4)
 
+The results of compression of demo1.mp4 (from the demo_videos directory) by the command
+   
+      python video_demo.py 1 <model_type>   
+      
+where <model_type> is written in the video name.
+
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1zaPk7vQ-wsh9XeZFB8gR5C4gGKoOI_Mj?usp=sharing
 
 #### A table that concludes the PSNR & SSIM results on demo1.mp4
@@ -105,6 +111,13 @@ Link to videos(original & compressed version of each model): https://drive.googl
 -------------
 
 ### Video Compression Demo 2 (demo2.mp4)
+
+The results of compression of demo2.mp4 (from the demo_videos directory) by the command
+   
+      python video_demo.py 2 <model_type>   
+      
+where <model_type> is written in the video name.
+
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1n_g8e0mICJ8Lbv_mvhGbn3DItXf_t-yW?usp=sharing
 
@@ -124,6 +137,13 @@ Link to videos(original & compressed version of each model): https://drive.googl
 -------------
 
 ### Video Compression Demo 3 (demo3.mp4)
+
+The results of compression of demo3.mp4 (from the demo_videos directory) by the command
+   
+      python video_demo.py 3 <model_type>   
+      
+where <model_type> is written in the video name.
+
 
 Link to videos(original & compressed version of each model): https://drive.google.com/drive/folders/1_q6OBaXLP-ZaudCHFWAlt5mr48ctPXLd?usp=sharing
 
