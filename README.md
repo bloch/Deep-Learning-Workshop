@@ -176,7 +176,7 @@ Model name | PSNR | SSIM
       - the vae.pt file should be at the demo_models directory(the relative path should be 'Deep-Learning-Workshop-master/demo_models/vae.pt').
         Download (and extract from the zip file) the vae model(vae.pt file) from the following link: https://drive.google.com/file/d/1qfrRyRIYVIBpiMW7WV3di8Q2KdroFK7F/view?usp=sharing.
       - the multilayer model(consists of 16 .pt files) should be a sub-directory at the demo_models directory, and the relative path should
-        be 'Deep-Learning-Workshop-master/demo_models/multilayer//'.
+        be 'Deep-Learning-Workshop-master/demo_models/multilayer/'.
         Download (and extract from the zip files) the multilayer models dir from https://drive.google.com/drive/folders/1SRe9r7zjkBkO0VPOmzQNrdnJaZktdSiE?usp=sharing.
         This might be downloaded in a seperate zip files, and you have to merge all the .pt files to the 'demo_models/multilayer/ directory.
         
