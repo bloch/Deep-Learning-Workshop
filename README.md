@@ -179,20 +179,15 @@ Model name | PSNR | SSIM
    The link to the VAE model(vae.pt file): https://drive.google.com/file/d/1qfrRyRIYVIBpiMW7WV3di8Q2KdroFK7F/view?usp=sharing
    
    The link to the Multilayer model(multilayer directory): https://drive.google.com/drive/folders/1SRe9r7zjkBkO0VPOmzQNrdnJaZktdSiE?usp=sharing
+ 
    
-   The demo_models directory should look like(after downloading the extra models from the drive):
+2. The demo_models directory should look like(after downloading the extra models from the drive):
    
       ![image](https://user-images.githubusercontent.com/40773674/132831062-27218c3e-9910-4bb7-949a-467c0bceee3f.png)
 
-2. Optional:
-   
-2. Download the demo models(the base directory of the link) from the following link:
+   Remark: This is an additional link to a google drive directory with all models(this is actually demo_models dir):
 
-   https://drive.google.com/drive/folders/1-unbekPRk1qUICMMxzVB59wNmXpQp4RG?usp=sharing
-   
-   and extract the contents(one directory named demo_models with all the models included in it) to the folder Deep-Learning-Workshop-master.
-   
-   This should look like Deep-Learning-Workshop-master\demo_models.
+         https://drive.google.com/drive/folders/1-unbekPRk1qUICMMxzVB59wNmXpQp4RG?usp=sharing
    
 3. Optional(if installation problems occur): Open a terminal within the Deep-Learning-Workshop-master directory and run the following command to install required packages:
 
