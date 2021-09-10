@@ -166,7 +166,7 @@ Model name | PSNR | SSIM
 ### Remark: The downloads & installations required in order to run a live demo will take several minutes and a descent amount of storage(~4.5GB), and therefore we provided the above demo examples for convience(so one doesn't have to run the live demo to see some results).
 
 
-1. Download all files in the repository(specifically: dataset.py, models.py, demo_params.py, and all py files in utils folder).
+1. Download all files in the repository.
    
    This can be done by clicking on the green button of 'Code' and using the 'Download ZIP' option.
    
