@@ -170,7 +170,19 @@ Model name | PSNR | SSIM
    
    This can be done by clicking on the green button of 'Code' and using the 'Download ZIP' option.
    
-   Then, extract the contents of the ZIP. This will create a new directory named 'Deep-Learning-Workshop-master' which includes all the code.
+   Then, extract the contents of the ZIP. This will create a new directory named 'Deep-Learning-Workshop-master' which includes all the code and some of the models(vanilla, conv4    and conv5 models).
+   Remark: Multilayer and VAE models are heavy and were not uploaded to this git repo and are stored on Google drive. It is possible(and optional) to download them from the drive    and locate them in the following way: 
+      - the vae.pt file should be at the demo_models directory(the relative path should be 'Deep-Learning-Workshop-master\demo_models\vae.pt').
+      - the multilayer model(a folder named multilayer in the drive which contains 16 .pt files) should be a sub-directory at the demo_models directory(the relative path should
+        be 'Deep-Learning-Workshop-master\demo_models\multilayer\').       
+   
+   The link to the VAE model(vae.pt file): https://drive.google.com/file/d/1qfrRyRIYVIBpiMW7WV3di8Q2KdroFK7F/view?usp=sharing
+   The link to the Multilayer model(multilayer directory): https://drive.google.com/drive/folders/1SRe9r7zjkBkO0VPOmzQNrdnJaZktdSiE?usp=sharing
+   
+   The demo_models directory should look like(after downloading the extra models from the drive):
+      ![image](https://user-images.githubusercontent.com/40773674/132831062-27218c3e-9910-4bb7-949a-467c0bceee3f.png)
+
+2. Optional:
    
 2. Download the demo models(the base directory of the link) from the following link:
 
